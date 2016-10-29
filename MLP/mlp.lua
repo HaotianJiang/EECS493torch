@@ -5,7 +5,7 @@ require "math"
 
 -- global variables
 learningRate = 0.01
-maxIterations = 100000
+maxIterations = 1000
 
 
 -- here we set up the architecture of the neural network
