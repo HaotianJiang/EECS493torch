@@ -93,7 +93,7 @@ function test_predictor(predictor, test_dataset, classes, classes_names)
 end
 
 
--- main routine
+-- main routine  test
 function main()
 
         local training_dataset, testing_dataset, classes, classes_names = dofile('usps_dataset.lua')
