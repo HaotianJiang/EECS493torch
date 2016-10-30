@@ -11,7 +11,7 @@ fraction = 0.01
 
 batchsize=100
 
-
+--dsadaadsa
 -- here we set up the architecture of the neural network
 function create_network(nb_outputs)
 
