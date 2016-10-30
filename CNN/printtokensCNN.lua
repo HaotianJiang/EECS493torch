@@ -167,7 +167,7 @@ function main()
         end
 
         local network = create_network(#classes)
-        --just test again
+        --just test again master
         --local grads_acc={torch.Tensor(10,32):zero(),torch.Tensor(10,1):zero(),torch.Tensor(5,320):zero(),torch.Tensor(5,1):zero(), torch.Tensor(300,585):zero(),torch.Tensor(300,1):zero(),torch.Tensor(12,300):zero(),torch.Tensor(12,1):zero()}
          
         print("---start training---")
