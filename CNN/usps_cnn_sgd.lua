@@ -99,7 +99,7 @@ function main()
 
         local training_dataset, testing_dataset, classes, classes_names = dofile('usps_dataset.lua')
  
-        local network = create_network(#classes)
+        local network = create_network()
 		--print(training_dataset[1])
 	 --  print(training_dataset[1])
 		--print(torch.Tensor(64,1))

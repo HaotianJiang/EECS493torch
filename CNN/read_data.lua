@@ -8,8 +8,8 @@ require "math"
 images_set={}
 name_format = "usps_%d.png"
 
-classes = {1,2,3,4,5,6,7,8,9,10} -- indices in torch/lua start at 1, not at zero
-classes_names = {'0','1','2','3','4','5','6','7','8','9'}
+classes = {1,2} -- indices in torch/lua start at 1, not at zero
+classes_names = {'0','1'}
 
 ncols = 33
 nrows = 34

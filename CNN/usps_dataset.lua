@@ -39,7 +39,7 @@ function loadtxt(datafile, labelfile)
 end
 
 local training_dataset = loadtxt('X_train.txt','y_train.txt')
-local testing_dataset   = loadtxt('X_test.txt','y_test.txt')
+local testing_dataset  = loadtxt('X_test.txt','y_test.txt')
 --a={{1,2,2},{3,4,5}}
 --print("one data")    
 --print(type(testing_dataset[1][2]))    
