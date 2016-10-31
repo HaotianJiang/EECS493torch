@@ -1,0 +1,10 @@
+Q = eye(401); 
+for i=1:1:401
+    fprintf('%d ', Q(i,:))
+    fprintf('\n')
+end
+
+fileID = fopen('exp.txt','w');
+fprintf(fileID,'%6s %12s\n','x','exp(x)');
+fprintf(fileID,'%6.2f %12.8f\n',A);
+fclose(fileID);
