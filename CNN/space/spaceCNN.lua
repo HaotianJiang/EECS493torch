@@ -120,7 +120,7 @@ function test_predictor(predictor, test_dataset, classes, classes_names)
                print(i, " ", probabilites_per_class[1], " ", probabilites_per_class[2])
 	       --print(i, " ", probability, " ", prediction)
   	       
-  	       file:write(tostring(probabilites_per_class[2]),"\n")
+  	       file:write(tostring(probabilites_per_class[1]),"\n")
                if prediction[1] ~= class_id[1] then
                       mistakes = mistakes + 1
                       local label = classes_names[ classes[class_id[1]] ]

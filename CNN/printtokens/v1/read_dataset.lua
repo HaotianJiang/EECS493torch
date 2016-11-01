@@ -38,7 +38,7 @@ function loadtxt(datafile, labelfile)
 	return dataset
 end
 
-local training_dataset = loadtxt('printtokens_parameter.txt','print_tokens_label1.txt')
+local training_dataset = loadtxt('printtokens_parameter.txt','print_tokens_label2.txt')
 local testing_dataset  = loadtxt('printtokens_testingSet.txt','printtokens_testingLabel.txt')
 --a={{1,2,2},{3,4,5}}
 --print("one data")    
